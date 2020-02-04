@@ -1,2 +1,6 @@
 
 * Setup some sort of scroll spy to highlight the nav links
+
+* Try a yellow accent color and lighter text for the darker background
+
+* Delete light wallpaper from img folder if not used
