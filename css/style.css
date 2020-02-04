@@ -1,2 +1,129 @@
-@import url("global.css");
+@import url("variables.css");
 
+
+/* RESETS & DEFAULTS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-default);
+  font-weight: 400;
+  color: var(--color-text-default);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-neutral-grey);
+  transition: 150ms;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover, a:active, a:focus {
+  color: var(--color-accent);
+  outline: none;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.icon {
+  fill: var(--color-neutral-grey);
+  transition: 150ms;
+}
+
+.icon:hover, .icon:focus, .icon:active {
+  fill: var(--color-accent);
+}
+
+
+/* NAVIGATION */
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#nav .container {
+  flex-direction: column;
+}
+
+.burger-btn {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 5% 0;
+  background: none;
+  border: none;
+}
+
+.burger-btn:focus {
+  outline: none;
+}
+
+#nav-menu {
+  display: none;
+}
+
+#nav-menu li {
+  padding: 0.5rem 0 1.2rem 0;
+}
+
+#nav-menu li a {
+  padding: 0.5rem 0 1.2rem 0;
+}
+
+
+/* LANDING PAGE */
+#landing-page {
+  max-width: 100vw;
+  height: 100vh;
+  background: url("../img/background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#landing-page .container {
+  justify-content: center;
+  align-items: center;
+}
+
+#landing-page h1 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  padding-top: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#landing-page span {
+  font-weight: 500;
+  color: var(--color-accent);
+}
+
+#landing-page h3 {
+  font-weight: 400;
+  font-size: 1.19rem;
+  margin-bottom: 7rem;
+}
+
+.arrow-btn {
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 0 auto;
+}

@@ -1,2 +1,2 @@
 
-* Download font awesome icons
+* Setup some sort of scroll spy to highlight the nav links
