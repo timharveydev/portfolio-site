@@ -7,7 +7,7 @@ let toggleState = false;
 function toggleMenu() {
   if (toggleState == false) {
     menu.style.display = "block";
-    nav.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+    nav.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
     toggleState = true;
   }
   else {
