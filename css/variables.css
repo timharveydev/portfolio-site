@@ -1,5 +1,6 @@
 :root {
-  --color-accent: #FF9C00;
+  --color-primary: #FF9C00; /*yellow*/
+  --color-secondary: #003C4A; /*blue*/
   --color-neutral-grey: #AFAFAF;
   --color-text-default: #4B4B4B;
   --font-default: 'Montserrat', sans-serif;

@@ -36,7 +36,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: var(--color-accent);
+  color: var(--color-primary);
   outline: none;
 }
 
@@ -54,7 +54,7 @@ a:hover, a:active, a:focus {
 }
 
 .icon:hover, .icon:focus, .icon:active {
-  fill: var(--color-accent);
+  fill: var(--color-primary);
 }
 
 
@@ -142,7 +142,7 @@ a:hover, a:active, a:focus {
 
 #landing-page span {
   font-weight: 500;
-  color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 #landing-page h3 {
@@ -168,7 +168,7 @@ a:hover, a:active, a:focus {
 }
 
 .arrow-btn:hover > svg {
-  fill: var(--color-accent);
+  fill: var(--color-primary);
 }
 
 @media only screen and (min-width: 1024px) {

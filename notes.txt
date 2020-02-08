@@ -1,14 +1,2 @@
 
 * Setup some sort of scroll spy to highlight the nav links when scrolling the site
-
-* Solve ipad rotation nav bug (combine with code suggestion on next line down)
-
-* Write some js to close burger menu on link click for mobile devices, but not large devices. Will probably have to check if doc.getelbyid("burger-btn").display = "none" -> if so then don't run the code. Otherwise, run the code. Or alternatively it might be better to use media queries in javascript to assign burger-btn nav for small devices and not for larger. Either way, the line in the js to look at is 'menu.style.display = "none";' - line 15
-
-
-
-
-
-Nice colours:
-
-* mint green: #00BA97
