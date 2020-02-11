@@ -1,2 +1,10 @@
 
-* Setup some sort of scroll spy to highlight the nav links when scrolling the site
+* Footer icon hover color to blue?
+
+* make landing page less than 100vh? same for portfolio page header? -> then change landing page and portfolio header from section tag to header tag? -> and make background image the same position for each.
+
+* Make pages fade in on load using JS to add a fade-in class on page load to certain elements
+
+* add a favicon to the browser tabs
+
+* change max container width for larger screens
