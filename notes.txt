@@ -7,4 +7,8 @@
 
 * add a favicon to the browser tabs
 
-* change max container width for larger screens
+* change max container width for tablets and computers screens
+
+* ensure email link is functioning
+
+* make nav dropdown animate smoothly
