@@ -7,14 +7,10 @@
 
 * add a favicon to the browser tabs
 
-* change max container width for larger screens
-
 * ensure email link is functioning
 
 * make nav dropdown animate smoothly
 
-* don't use media queries to set flex direction for responsivenes - try to get flexbox to do it automatically
-
-* don't use display:flex; in containers - instead create divs with flex-column and flex-row classes
+* hide nav dropdown when a link is clicked
 
 * Run code validators on completion

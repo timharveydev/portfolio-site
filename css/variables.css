@@ -1,7 +1,7 @@
 :root {
   --color-primary: #00718B; /*turqoise*/
   --color-secondary: #FF9C00; /*yellow*/
-  --color-neutral-grey: #AFAFAF;
+  --color-light-grey: #B3B3B3;
   --color-dark-grey: #292929;
   --font-default: 'Montserrat', sans-serif;
 };
