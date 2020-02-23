@@ -14,3 +14,5 @@
 * hide nav dropdown when a link is clicked
 
 * Run code validators on completion
+
+* solve issue with nav readability on page scroll down on non-mobile screens

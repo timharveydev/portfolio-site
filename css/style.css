@@ -271,7 +271,36 @@ svg {
 
 #skills p {
   text-align: center;
-  max-width: 25rem;
+  max-width: 20rem;
+}
+
+
+/* PORTFOLIO BANNER */
+#banner {
+  max-width: 100vw;
+  height: 12rem;
+  background: url("../img/background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#banner .flex-row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1 {
+  color: var(--color-light-grey);
+}
+
+@media only screen and (min-width: 1024px) {
+  #banner {
+    height: 15rem;
+  }
+
+  #banner h1 {
+    font-size: 3rem;
+  }
 }
 
 
