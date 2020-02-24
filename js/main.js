@@ -1,18 +1,18 @@
 //Global variables
 const nav = document.getElementById('nav');
-const menu = document.getElementById('nav-links');
+const links = document.getElementById('nav-links');
 let toggleState = false;
 
 //Toggles the burger menu on mobile devices
 function toggleMenu() {
   if (toggleState == false) {
-    menu.style.display = 'block';
-    nav.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+    links.style.display = 'block';
+    nav.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
     toggleState = true;
   }
   else {
     nav.style.backgroundColor = 'rgba(0, 0, 0, 0)';
-    menu.style.display = 'none';
+    links.style.display = 'none';
     toggleState = false;
   }
 }
@@ -21,7 +21,7 @@ function toggleMenu() {
 window.addEventListener('resize', () => {
   if (window.innerWidth >= 1024) {
     nav.removeAttribute('style');
-    menu.removeAttribute('style');
+    links.removeAttribute('style');
     toggleState = false;
   }
 })

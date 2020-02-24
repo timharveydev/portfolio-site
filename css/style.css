@@ -53,7 +53,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--color-primary);
-  transition: 150ms;
+  transition: 200ms;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
@@ -87,7 +87,7 @@ svg {
 
 .icon {
   fill: var(--color-light-grey);
-  transition: 150ms;
+  transition: 200ms;
   cursor: pointer;
 }
 
@@ -316,7 +316,7 @@ svg {
 
 @media only screen and (min-width: 1024px) {
   #banner {
-    height: 15rem;
+    height: 18rem;
   }
 
   #banner h1 {
@@ -336,6 +336,7 @@ svg {
 #projects .project-box {
   padding: 1rem;
   margin-top: 5rem;
+  max-width: 1200px;
   background-color: var(--color-bg-grey);
 }
 
@@ -344,25 +345,57 @@ svg {
   max-width: 100%;
 }
 
-#projects .project-box h2 {
+#projects .info-wrapper {
+  padding: 1rem 0;
+}
+
+#projects .info-wrapper h2 {
   margin-bottom: 0.4rem;
 }
 
-#projects .project-box h3 {
+#projects .info-wrapper h3 {
   color: var(--color-light-grey);
   font-size: 0.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-#projects .project-box p {
+#projects .info-wrapper p {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-#projects .project-box .link-wrapper {
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
+#projects .info-wrapper .link-wrapper a {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #projects .project-box {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  #projects .project-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #projects .project-box.reverse-flex {
+    flex-direction: row-reverse;
+  }
+
+  #projects .project-box img {
+    width: 60%;
+  }
+
+  #projects .info-wrapper {
+    width: 30%;
+  }
 }
 
 

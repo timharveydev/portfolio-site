@@ -1,8 +1,6 @@
 
 * Footer icon hover color to green?
 
-* make landing page less than 100vh? same for portfolio page header? -> then change landing page and portfolio header from section tag to header tag? -> and make background image the same position for each.
-
 * Make pages fade in on load using JS to add a fade-in class on page load to certain elements
 
 * add a favicon to the browser tabs
@@ -11,10 +9,10 @@
 
 * make nav dropdown animate smoothly
 
-* hide nav dropdown when a link is clicked
+* hide nav links on scroll down? -> reappear on scroll up? OR give nav links a background color on scroll -> back to transparent at top of site?
 
 * Run code validators on completion
 
-* solve issue with nav links readability on page scroll down over skills section - maybe solve by adding a fourth skill (react) and having them display in a 2x2 grid, perhaps making the container narrower?
+* finish project descriptors
 
-* change colours of project boxes? -> turquoise bg, yellow h2, grey h3, grey links turn yellow on hover?
+* if adding react project -> add react to skills section
