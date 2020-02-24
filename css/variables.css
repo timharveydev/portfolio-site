@@ -1,7 +1,13 @@
 :root {
-  --color-primary: #00718B; /*turqoise*/
+  --color-primary: #006E53; /*green*/
   --color-secondary: #FF9C00; /*yellow*/
   --color-light-grey: #B3B3B3;
   --color-dark-grey: #292929;
+  --color-bg-grey: #f1f1f1;
   --font-default: 'Montserrat', sans-serif;
 };
+
+
+
+/* old turquoise */
+#00718B

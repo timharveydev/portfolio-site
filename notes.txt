@@ -15,4 +15,6 @@
 
 * Run code validators on completion
 
-* solve issue with nav readability on page scroll down on non-mobile screens
+* solve issue with nav links readability on page scroll down over skills section - maybe solve by adding a fourth skill (react) and having them display in a 2x2 grid, perhaps making the container narrower?
+
+* change colours of project boxes? -> turquoise bg, yellow h2, grey h3, grey links turn yellow on hover?
