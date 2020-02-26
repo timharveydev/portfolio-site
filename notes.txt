@@ -1,18 +1,14 @@
 
 * Footer icon hover color to green?
 
-* Make pages fade in on load using JS to add a fade-in class on page load to certain elements
-
-* add a favicon to the browser tabs
-
 * ensure email link is functioning
 
 * make nav dropdown animate smoothly
 
-* hide nav links on scroll down? -> reappear on scroll up? OR give nav links a background color on scroll -> back to transparent at top of site?
+* give nav links grey bg on scroll down, transparent bg at to of page
 
 * Run code validators on completion
 
-* finish project descriptors
+* if adding react project -> add react to skills section, or redo skills section to look less amateur
 
-* if adding react project -> add react to skills section
+* make website live on GitHub pages

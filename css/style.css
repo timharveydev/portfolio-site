@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--color-bg-grey);
 }
 
 body {
@@ -17,6 +18,9 @@ body {
   font-weight: 500;
   color: var(--color-dark-grey);
   background-color: #f9f9f9;
+  /*Required for fade-in effect*/
+  opacity: 0;
+  transition: 200ms ease opacity;
 }
 
 @media only screen and (max-width: 1024px) {
