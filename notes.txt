@@ -1,14 +1,12 @@
 
 * Footer icon hover color to green?
 
-* ensure email link is functioning
+* give nav links stars bg on scroll down, transparent bg at top of page -> align image center bottom
 
-* make nav dropdown animate smoothly
-
-* give nav links grey bg on scroll down, transparent bg at to of page
+* animate arrow btn?
 
 * Run code validators on completion
 
-* if adding react project -> add react to skills section, or redo skills section to look less amateur
+* when adding react project -> add react to skills section, or re-do skills section to look less amateur
 
 * make website live on GitHub pages
