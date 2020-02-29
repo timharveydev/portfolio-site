@@ -3,21 +3,22 @@ const nav = document.getElementById('nav');
 const links = document.getElementById('nav-links');
 let toggleState = false;
 
-//Toggles the burger menu on mobile devices
+//Toggles the burger menu on mobile devices with slide and fade effect
 function toggleMenu() {
   if (toggleState == false) {
-    links.style.display = 'block';
     nav.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    links.style.transition = '500ms ease';
+    links.style.height = '100px';
     toggleState = true;
   }
   else {
+    links.style.height = '0';
     nav.style.backgroundColor = 'rgba(0, 0, 0, 0)';
-    links.style.display = 'none';
     toggleState = false;
   }
 }
 
-//Solves issue where nav dissappears after clicking burger menu and resizing window
+//Solves issue where nav dissappears after clicking burger menu and resizing window (affects iPad)
 window.addEventListener('resize', () => {
   if (window.innerWidth >= 1024) {
     nav.removeAttribute('style');
