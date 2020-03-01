@@ -109,7 +109,11 @@ svg {
   top: 0;
   left: 0;
   width: 100%;
-  transition: 500ms ease;
+}
+
+#nav.scroll {
+  background: url("../img/background.jpg") center bottom no-repeat;
+  background-size: cover;
 }
 
 #nav .burger-btn {
@@ -158,7 +162,7 @@ svg {
   #nav-links {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 3.5rem;
   }
 
   #nav-links li {
@@ -168,7 +172,7 @@ svg {
 
   #nav-links li a {
     padding: 1rem 1rem 1rem 0;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
   }
 }

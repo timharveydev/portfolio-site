@@ -1,12 +1,14 @@
 
 * Footer icon hover color to green?
 
-* give nav links stars bg on scroll down, transparent bg at top of page -> align image center bottom
+* adjust spacing of nav links (make them vertically centered)
 
-* animate arrow btn?
+* make navbar background work for portfolio page
 
 * Run code validators on completion
 
 * when adding react project -> add react to skills section, or re-do skills section to look less amateur
 
 * make website live on GitHub pages
+
+* delete notes.txt from project when complete
