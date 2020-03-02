@@ -1,10 +1,4 @@
 
-* Footer icon hover color to green?
-
-* adjust spacing of nav links (make them vertically centered)
-
-* make navbar background work for portfolio page
-
 * Run code validators on completion
 
 * when adding react project -> add react to skills section, or re-do skills section to look less amateur
