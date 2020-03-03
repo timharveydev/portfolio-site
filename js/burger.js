@@ -4,7 +4,7 @@ const links = document.getElementById('nav-links');
 let toggleState = false;
 
 //Toggles the burger menu on mobile devices with slide and fade effect
-function toggleMenu() {
+const toggleMenu = () => {
   if (toggleState == false) {
     nav.style.transition = '500ms ease';
     links.style.transition = '500ms ease';

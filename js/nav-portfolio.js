@@ -11,7 +11,6 @@ window.onscroll = () => {
 
 //Remove navbar specific attributes for smaller screens
 window.addEventListener('resize', () => {
-  if (window.innerWidth < 1024) {
+  if (window.innerWidth < 1024)
     nav.classList.remove('scroll');
-  }
 })

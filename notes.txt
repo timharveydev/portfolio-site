@@ -1,5 +1,5 @@
 
-* Run code validators on completion
+* tidy up
 
 * when adding react project -> add react to skills section, or re-do skills section to look less amateur
 
