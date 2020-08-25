@@ -1,8 +1,0 @@
-
-* tidy up
-
-* when adding react project -> add react to skills section, or re-do skills section to look less amateur
-
-* make website live on GitHub pages
-
-* delete notes.txt from project when complete
