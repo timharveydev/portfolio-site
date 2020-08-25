@@ -1,4 +1,5 @@
 //Adds bg image to navbar when scrolling past the banner section on non-mobile devices
+//Const 'nav' declared in 'burger.js'
 window.onscroll = () => {
   if (window.innerWidth >= 1024) {
     const scrollHeight = document.getElementById('banner').clientHeight - nav.clientHeight;
