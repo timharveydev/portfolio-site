@@ -1,6 +1,17 @@
 @import url("variables.css");
 
 
+/* ASTERISK NOTES*/
+#skills h5 {
+  margin-top: 3rem;
+  color: var(--color-dark-grey) !important;
+}
+
+#projects h5 {
+  color: var(--color-dark-grey) !important;
+}
+
+
 /* RESETS & DEFAULTS*/
 * {
   margin: 0;
